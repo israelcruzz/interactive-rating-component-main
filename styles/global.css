@@ -1,0 +1,11 @@
+:root {
+    --primary-color: #fb7413;
+
+    --neutral-white: #ffffff;
+    --neutral-light-grey: #959eac;
+    --neutral-medium-grey: #7c8798;
+    --neutral-dark-blue: #252d37;
+    --neutral-very-dark-blue: #121417;
+
+    --font-size-paragraph: 15px;
+}

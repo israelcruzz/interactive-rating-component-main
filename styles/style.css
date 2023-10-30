@@ -1,0 +1,214 @@
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--neutral-very-dark-blue);
+}
+
+.thanks,
+.questions {
+    width: 412px;
+    height: 416px;
+    border-radius: 30px;
+    background: var(--black-gradient, radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%));
+    padding: 32px;
+}
+
+.image {
+    width: 48px;
+    height: 48px;
+    background-color: var(--neutral-dark-blue);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.image img {
+    width: 16px;
+    height: 16px;
+}
+
+
+.main-content-title {
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35.45px;
+    color: var(--neutral-white);
+    margin-bottom: 8px;
+}
+
+.pharaghap {
+    color: var(--neutral-medium-grey);
+    margin-bottom: 24px;
+}
+
+.select-numbers {
+    display: flex;
+}
+
+.select-numbers ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 21px;
+    list-style: none;
+}
+
+.select-numbers ul li {
+    display: flex;
+    border-radius: 50%;
+    height: 51px;
+    width: 51px;
+    background-color: var(--neutral-dark-blue);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: var(--neutral-medium-grey);
+    margin-bottom: 32px;
+}
+
+.select-numbers ul li:hover {
+    background-color: var(--primary-color);
+    color: var(--neutral-white);
+}
+
+.select-numbers ul li:active {
+    background-color: var(--neutral-medium-grey);
+    color: var(--neutral-white);
+}
+
+.submit button {
+    width: 100%;
+    border: none;
+    height: 45px;
+    border-radius: 22.5px;
+    background: var(--primary-color);
+    color: var(--neutral-white);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all ease-in-out .3s;
+}
+
+.submit button:hover {
+    background-color: var(--neutral-white);
+    color: var(--primary-color);
+}
+
+.thanks {
+    width: 412px;
+    height: 416px;
+    border-radius: 30px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    background: var(--black-gradient, radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%));
+    padding: 32px;
+}
+
+.thanks-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.thanks-image img {
+    width: 162px;
+    height: 108px;
+}
+
+.thaks-selected {
+    background-color: var(--neutral-dark-blue);
+    color: var(--primary-color);
+    width: 193px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 22.5px;
+    margin-bottom: 32px;
+}
+
+.thanks-content-title {
+    color: var(--neutral-white);
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.thanks-content-p {
+    color: var(--neutral-light-grey);
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (max-width: 439px) {
+    .questions {
+        width: 327px;
+        height: 360px;
+        border-radius: 15px;
+        padding: 15px;
+    }
+
+    .image {
+        width: 40px;
+        height: 40px;
+    }
+
+    .main-content-title {
+        font-size: 14px;
+    }
+
+    .pharaghap {
+        font-size: 12px;
+    }
+
+    .select-numbers ul li {
+        height: 42px;
+        width: 42px;
+    }
+
+    .submit button {
+        border-radius: 15px;
+    }
+
+    .thanks {
+        width: 327px;
+        height: 360px;
+        border-radius: 15px;
+        padding: 15px;
+    }
+
+    .thanks-image img {
+        width: 144px;
+        height: 96px;
+    }
+
+    .thaks-selected {
+        width: 168px;
+        height: 32px;
+        font-size: 12px;
+    }
+
+    .thanks-content-title {
+        font-size: 16px;
+    }
+
+    .thanks-content-p {
+        font-size: 14px;
+    }
+}
